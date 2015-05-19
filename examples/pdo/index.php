@@ -88,7 +88,8 @@ function updateReg($reg) {
 <head>
 <title>PHP U2F example</title>
 
-<script src="chrome-extension://pfboblefjcgdjicmnffhdgionmgcdmne/u2f-api.js"></script>
+<!--<script src="chrome-extension://pfboblefjcgdjicmnffhdgionmgcdmne/u2f-api.js"></script>-->
+<script src="../../js/u2f-api.js"></script> <!-- Copied from https://demo.yubico.com/js/u2f-api.js on 2015-05-19 -->
 
 <script>
 <?php
